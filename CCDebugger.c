@@ -69,7 +69,7 @@
 #define I_GET_BM    14
 #define I_BURST_WRITE    15
 
-void cc_delay_calibrate( );
+// void cc_delay_calibrate( );
 int cc_init( int pRST, int pDC, int pDD )
 {
   if(pRST>=0) pinRST=pRST;
